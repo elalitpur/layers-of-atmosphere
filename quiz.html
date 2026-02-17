@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Atmosphere Layers Quiz</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header>
+  <nav class="container">
+    <a href="index.html" class="logo">Atmosphere Layers</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="layers.html">Layers Overview</a></li>
+      <li><a href="facts.html">Interesting Facts</a></li>
+      <li><a href="quiz.html" class="active">Quiz</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="container">
+  <h2>Atmosphere Layers Quiz</h2>
+  <p style="text-align:center; font-size:1.3rem; margin-bottom:3rem;">
+    How well do you know the layers of Earth's atmosphere?
+  </p>
+
+  <form id="quiz-form" class="quiz-container">
+    <div class="question">
+      <h3>1. Which layer contains most of Earth's weather?</h3>
+      <div class="option"><input type="radio" name="q1" value="stratosphere"> Stratosphere</div>
+      <div class="option"><input type="radio" name="q1" value="troposphere"> Troposphere</div>
+      <div class="option"><input type="radio" name="q1" value="mesosphere"> Mesosphere</div>
+      <div class="option"><input type="radio" name="q1" value="thermosphere"> Thermosphere</div>
+    </div>
+
+    <div class="question">
+      <h3>2. In which layer is the ozone layer located?</h3>
+      <div class="option"><input type="radio" name="q2" value="troposphere"> Troposphere</div>
+      <div class="option"><input type="radio" name="q2" value="stratosphere"> Stratosphere</div>
+      <div class="option"><input type="radio" name="q2" value="mesosphere"> Mesosphere</div>
+      <div class="option"><input type="radio" name="q2" value="exosphere"> Exosphere</div>
+    </div>
+
+    <div class="question">
+      <h3>3. Where do most meteors burn up?</h3>
+      <div class="option"><input type="radio" name="q3" value="thermosphere"> Thermosphere</div>
+      <div class="option"><input type="radio" name="q3" value="stratosphere"> Stratosphere</div>
+      <div class="option"><input type="radio" name="q3" value="mesosphere"> Mesosphere</div>
+      <div class="option"><input type="radio" name="q3" value="exosphere"> Exosphere</div>
+    </div>
+
+    <div class="question">
+      <h3>4. The International Space Station orbits in which layer?</h3>
+      <div class="option"><input type="radio" name="q4" value="mesosphere"> Mesosphere</div>
+      <div class="option"><input type="radio" name="q4" value="exosphere"> Exosphere</div>
+      <div class="option"><input type="radio" name="q4" value="thermosphere"> Thermosphere</div>
+      <div class="option"><input type="radio" name="q4" value="stratosphere"> Stratosphere</div>
+    </div>
+
+    <div class="question">
+      <h3>5. Which is the outermost layer that merges with space?</h3>
+      <div class="option"><input type="radio" name="q5" value="thermosphere"> Thermosphere</div>
+      <div class="option"><input type="radio" name="q5" value="mesosphere"> Mesosphere</div>
+      <div class="option"><input type="radio" name="q5" value="exosphere"> Exosphere</div>
+      <div class="option"><input type="radio" name="q5" value="stratosphere"> Stratosphere</div>
+    </div>
+
+    <div style="text-align:center;">
+      <button type="submit" class="btn">Submit Quiz</button>
+    </div>
+
+    <div id="result"></div>
+  </form>
+</main>
+
+<footer>
+  <p>© 2026 Earth Science Educational Project</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
